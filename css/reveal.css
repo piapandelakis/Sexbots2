@@ -875,10 +875,11 @@ body {
  * OVERVIEW
  *********************************************/
 .reveal.overview {
-  -webkit-perspective-origin: 50% 50%;
-          perspective-origin: 50% 50%;
-  -webkit-perspective: 700px;
-          perspective: 700px; }
+  -webkit-perspective-origin: 10% 10%;
+          perspective-origin: 10% 10%;
+  -webkit-perspective: 300px;
+          perspective: 300px; 
+          border:1px solid red;}
   .reveal.overview .slides section {
     height: 700px;
     opacity: 1 !important;
@@ -888,8 +889,8 @@ body {
     -moz-box-sizing: border-box;
          box-sizing: border-box; }
   .reveal.overview .slides section:hover, .reveal.overview .slides section.present {
-    outline: 10px solid rgba(150, 150, 150, 0.4);
-    outline-offset: 10px; }
+    outline: 20px solid rgba(150, 150, 150, 0.4);
+    /* outline-offset: 10px; */ }
   .reveal.overview .slides section .fragment {
     opacity: 1;
     -webkit-transition: none;
@@ -908,8 +909,8 @@ body {
   .reveal.overview .backgrounds .slide-background {
     opacity: 1;
     visibility: visible;
-    outline: 10px solid rgba(150, 150, 150, 0.1);
-    outline-offset: 10px; }
+    /* outline: 10px solid rgba(150, 150, 150, 0.1);
+    outline-offset: 10px; */ }
 
 .reveal.overview .slides section, .reveal.overview-deactivating .slides section {
   -webkit-transition: none;
@@ -1175,12 +1176,4 @@ body {
   visibility: hidden; }
 
 
-  /*********************************************
- * ajouts pia
- *********************************************/
- .over-photo{
-  background-color: rgba(0,0,0,0.6);
-  color: #fff;
-  padding: 0.3em !important; 
 
- }
