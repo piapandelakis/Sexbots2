@@ -875,11 +875,11 @@ body {
  * OVERVIEW
  *********************************************/
 .reveal.overview {
-  -webkit-perspective-origin: 10% 10%;
-          perspective-origin: 10% 10%;
-  -webkit-perspective: 300px;
-          perspective: 300px; 
-          border:1px solid red;}
+  -webkit-perspective-origin: 15% 15%;
+          perspective-origin: 15% 15%;
+  -webkit-perspective: 500px;
+          perspective: 500px; 
+          }
   .reveal.overview .slides section {
     height: 700px;
     opacity: 1 !important;
